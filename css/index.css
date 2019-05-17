@@ -320,15 +320,15 @@ header nav a:visited {
 }
 @media (max-width: 500px) {
   .home .content-pick .destination {
-    width: 93%;
-    margin: 3% auto;
+    width: 80%;
+    margin: 2% auto 4% auto;
   }
 }
 .home .btn {
   background-color: #17A2B8;
   color: #FFFFFF;
-  font-size: 2rem;
-  padding: 1.2rem 2rem;
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
   border-radius: 1.2rem;
   border: 1px solid #C0C0C0;
   text-align: center;
