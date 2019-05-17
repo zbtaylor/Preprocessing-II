@@ -213,6 +213,7 @@ header nav {
 @media (max-width: 500px) {
   header nav {
     width: 100%;
+    justify-content: space-between;
   }
 }
 header nav a {
@@ -223,6 +224,11 @@ header nav a {
 header nav a:hover,
 header nav a:visited {
   color: #212529;
+}
+@media (max-width: 500px) {
+  header nav a {
+    padding: 0 1.2rem;
+  }
 }
 .footer {
   width: 100%;

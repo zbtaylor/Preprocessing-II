@@ -34,6 +34,7 @@ header {
 
         @media @mobile {
             width: 100%;
+            justify-content: space-between;
         }
 
         a {
@@ -44,6 +45,10 @@ header {
             &:hover,
             &:visited {
                 color: @shark;
+            }
+
+            @media @mobile {
+                padding: 0 1.2rem;
             }
         }
     }
